@@ -9,7 +9,7 @@ This repository contains Java solutions to selected LeetCode problems, with expl
 
 | Problem | Topic | Approach | Time | Space |
 |---|---|---|---|---|
-| [33. Search in Rotated Sorted Array](./LeetCode-33/) | Array, Binary Search | Modified Binary Search | O(log n) | O(1) |
+| [133. Clone Graph](./LeetCode-133/) | Graph, HashMap, DFS | Depth-First Search | O(V + E) | O(V) |
 | [200. Number of Islands](./LeetCode-200/) | Matrix, Graph, DFS | Depth-First Search | O(m × n) | O(m × n) worst case |
 
 ## Repository structure
@@ -17,7 +17,7 @@ This repository contains Java solutions to selected LeetCode problems, with expl
 ```text
 .
 ├── README.md
-├── LeetCode-33/
+├── LeetCode-133/
 │   ├── Solution.java
 │   └── Explanation.md
 └── LeetCode-200/
