@@ -11,6 +11,8 @@ This repository contains Java solutions to selected LeetCode problems, with expl
 |---|---|---|---|---|
 | [133. Clone Graph](./LeetCode-133/) | Graph, HashMap, DFS | Depth-First Search | O(V + E) | O(V) |
 | [200. Number of Islands](./LeetCode-200/) | Matrix, Graph, DFS | Depth-First Search | O(m × n) | O(m × n) worst case |
+| [207. Course Schedule](./LeetCode-207/) | Graph, Cycle Detection | Depth-First Search | O(V + E) | O(V + E) |
+| [210. Course Schedule II](./LeetCode-210/) | Graph, Topological Sort | Kahn's Algorithm (BFS) | O(V + E) | O(V + E) |
 
 ## Repository structure
 
@@ -20,7 +22,13 @@ This repository contains Java solutions to selected LeetCode problems, with expl
 ├── LeetCode-133/
 │   ├── Solution.java
 │   └── Explanation.md
-└── LeetCode-200/
+├── LeetCode-200/
+│   ├── Solution.java
+│   └── Explanation.md
+├── LeetCode-207/
+│   ├── Solution.java
+│   └── Explanation.md
+└── LeetCode-210/
     ├── Solution.java
     └── Explanation.md
 ```
